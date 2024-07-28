@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+:root {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -73,6 +77,9 @@ header {
 }
 
 form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -105,6 +112,8 @@ form {
 }
 
 main {
+    max-width: 90%;
+    overflow-x: hidden;
     flex-direction: column;
     gap: 50px;
 }
@@ -242,4 +251,79 @@ footer {
 .footer-content p {
     font-size: 14px;
     text-align: center;
+}
+
+@media screen and (max-width:940px) {
+
+    body {
+        max-width: 650px;
+    }
+
+    .header-menu {
+        padding: 10px 15px;
+    }
+
+    .nav-list {
+        gap: 5px;
+    }
+
+    .list-items a {
+        font-size: 16px;
+    }
+
+    form {
+        gap: 10px;
+        justify-content: flex-end;
+        margin-right: 5px;
+    }
+
+    #search-input {
+        width: 50%;
+    }
+
+    .search-button {
+        padding: 5px 10px;
+    }
+
+    .cover {
+        width: 100%;
+    }
+
+    .cover img {
+        width: 565px;
+    }
+
+    .cover-content {
+        width: 470px;
+    }
+
+    .cover-content img {
+        width: 310px;
+    }
+
+    .cover-content span {
+        font-size: 1rem ;
+    }
+
+    .midle-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .midle-content p {
+        font-size: 0.75rem;
+    }
+
+    .doctors {
+        width: 100%;
+        gap: 30px;
+        padding: 5px;
+    }
+
+    .doctor-prof img {
+        width: 140px;
+    }
+
+    .footer-content {
+        padding: 15px 55px;
+    }
 }
