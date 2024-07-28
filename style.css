@@ -436,15 +436,15 @@ footer {
         align-items: center;
         display: flex;
         width: 100%;
-        padding: 2px 8px;
-        font-size: 14px;
+        padding: 4px 8px;
+        font-size: 15px;
     }
 
     .list-items:hover a {
         justify-content: flex-start;
         align-items: center;
         display: flex;
-        font-size: 13px;
+        font-size: 16px;
     }
 
     form {
