@@ -84,6 +84,7 @@ form {
 }
 
 #search-input {
+    font-size: 14px;
     height: 30px;
     padding: 5px 20px;
     border-radius:15px;
@@ -121,9 +122,15 @@ main {
 .cover {
     flex-direction: column;
     position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .cover img {
+    width: 100%;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -184,9 +191,13 @@ main {
     -o-border-radius: 15px;
 }
 
+.loading-animation span:last-child {
+    font-weight: 700;
+}
+
 .doctors {
     gap: 60px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .doctor-content {
@@ -256,10 +267,6 @@ footer {
 
 @media screen and (max-width:940px) {
 
-    body {
-        max-width: 650px;
-    }
-
     .header-menu {
         padding: 10px 15px;
     }
@@ -287,23 +294,15 @@ footer {
     }
 
     .cover {
-        width: 100%;
-    }
-
-    .cover img {
-        width: 565px;
+        min-width: 80%;
     }
 
     .cover-content {
-        width: 470px;
-    }
-
-    .cover-content img {
-        width: 310px;
+        max-width: 70%;
     }
 
     .cover-content span {
-        font-size: 1rem ;
+        font-size: 0.8rem ;
     }
 
     .midle-content h3 {
@@ -320,10 +319,192 @@ footer {
     }
 
     .doctor-prof img {
-        width: 140px;
+        width: 100%;
     }
 
     .footer-content {
         padding: 15px 55px;
+    }
+}
+
+@media screen and (max-width:660px) {
+
+    .nav-list {
+        gap: 5px;
+        padding: 0px;
+    }
+
+    .list-items a {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    form {
+        gap: 10px;
+        justify-content: flex-end;
+        margin-right: 0px;
+    }
+
+    #search-input {
+        font-size: 12px;
+        height: 25px;
+        width: 50%;
+    }
+
+    .search-button {
+        font-size: small;
+        padding: 4px 8px;
+    }
+
+    .cover-content {
+        gap: 10px;
+    }
+
+    .cover-content span {
+        font-size: 0.55rem ;
+    }
+
+    .cover-button {
+        font-size: 0.6rem;
+    }
+
+    .midle-content h3 {
+        font-size: 1rem;
+    }
+
+    .midle-content p {
+        font-size: 0.6rem;
+    }
+
+    .loading-animation span:first-child {
+        width: 10px;
+        height: 10px;
+    }
+
+    .loading-animation span:last-child {
+        font-size: 0.7rem;
+    }
+
+    .doctors {
+        flex-direction: column;
+    }
+
+    .doctor-content {
+        width: 50%;
+    }
+
+    .doctor-prof img {
+        width: 100%;
+    }
+
+    .footer-content h3 {
+        font-size: 1rem;
+    }
+
+    .footer-content p {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    body {
+        gap: 30px;
+    }
+
+    .logo img {
+        width: 70px;
+    }
+
+    .header-menu {
+        gap: 30px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list-items {
+        width: 100%;
+    }
+
+    .list-items a {
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        padding: 2px 8px;
+        font-size: 12px;
+    }
+
+    .list-items:hover a {
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+        font-size: 13px;
+    }
+
+    form {
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #search-input {
+        font-size: 11px;
+        height: 25px;
+        width: 100%;
+    }
+
+    .search-button {
+        font-size: 11px;
+    }
+
+    main {
+        gap: 35px;
+    }
+
+    .cover {
+        min-width: 95%;
+    }
+
+    .cover-content {
+        gap: 10px;
+    }
+
+    .cover-content span {
+        font-size: 0.55rem ;
+    }
+
+    .cover-button {
+        font-size: 0.6rem;
+    }
+
+    .midle-content h3 , .footer-content h3 {
+        font-size: 0.8rem;
+    }
+
+    .midle-content p , .footer-content p {
+        font-size: 0.5rem;
+    }
+
+    .loading-animation span:first-child {
+        width: 10px;
+        height: 10px;
+    }
+
+    .loading-animation span:last-child {
+        font-size: 0.7rem;
+    }
+
+    .doctor-info {
+        font-size: 0.9rem;
+    }
+
+    .doctor-button {
+        font-size: 0.7rem;
+        height: 25px;
+        padding: 6px;
     }
 }
