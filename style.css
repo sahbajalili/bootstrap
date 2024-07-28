@@ -186,6 +186,7 @@ main {
 
 .doctors {
     gap: 60px;
+    padding: 5px;
 }
 
 .doctor-content {
@@ -316,7 +317,6 @@ footer {
     .doctors {
         width: 100%;
         gap: 30px;
-        padding: 5px;
     }
 
     .doctor-prof img {
