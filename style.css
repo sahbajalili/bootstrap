@@ -470,7 +470,9 @@ footer {
     }
 
     .cover-content {
-        gap: 10px;
+        padding: 5px 15px;
+        gap: 5px;
+        max-width: 80%;
     }
 
     .cover-content span {
