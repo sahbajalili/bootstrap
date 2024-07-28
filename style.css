@@ -189,6 +189,7 @@ main {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    gap: 10px;
 }
 
 .loading-animation span:last-child {
@@ -436,7 +437,7 @@ footer {
         display: flex;
         width: 100%;
         padding: 2px 8px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .list-items:hover a {
@@ -450,6 +451,7 @@ footer {
         align-items: flex-end;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 25px;
     }
 
     #search-input {
@@ -480,7 +482,7 @@ footer {
     }
 
     .cover-content span {
-        font-size: 0.55rem ;
+        font-size: 0.6rem ;
     }
 
     .cover-button {
@@ -495,7 +497,7 @@ footer {
     }
 
     .midle-content p , .footer-content p {
-        font-size: 0.55rem;
+        font-size: 0.6rem;
     }
 
     .loading-animation span:first-child {
@@ -520,8 +522,8 @@ footer {
     }
 
     .doctor-button {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         height: 25px;
-        padding: 6px;
+        padding: 8px;
     }
 }
