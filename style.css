@@ -463,11 +463,12 @@ footer {
     }
 
     main {
+        max-width: 95%;
         gap: 35px;
     }
 
     .cover {
-        min-width: 95%;
+        max-width: 90%;
     }
 
     .cover-content {
