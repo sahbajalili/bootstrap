@@ -511,6 +511,10 @@ footer {
         width: 80%;
     }
 
+    .doctor-prof img {
+        width: 200px;
+    }
+
     .doctor-info {
         font-size: 0.9rem;
     }
