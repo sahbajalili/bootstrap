@@ -366,6 +366,7 @@ footer {
 
     .cover-button {
         font-size: 0.6rem;
+        height: 25px;
     }
 
     .midle-content h3 {
@@ -480,7 +481,10 @@ footer {
     }
 
     .cover-button {
+        font-weight: 600;
+        height: 20px;
         font-size: 0.6rem;
+        padding: 0px 5px;
     }
 
     .midle-content h3 , .footer-content h3 {
@@ -488,7 +492,7 @@ footer {
     }
 
     .midle-content p , .footer-content p {
-        font-size: 0.5rem;
+        font-size: 0.55rem;
     }
 
     .loading-animation span:first-child {
