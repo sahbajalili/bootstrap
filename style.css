@@ -507,6 +507,10 @@ footer {
         font-size: 0.7rem;
     }
 
+    .doctor-content {
+        width: 70%;
+    }
+
     .doctor-info {
         font-size: 0.9rem;
     }
